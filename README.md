@@ -41,10 +41,13 @@ OpenSUSE:
 1. Download the Latest Linux file from [Releases](https://github.com/W1ldAustin/android-debloater/releases)
 2. Open up the Terminal and change the directory to the folder the file is in (normally Downloads)
 3. Run the commands for your Linux system to install ADB
-4. Make the file executable by running the following command: ```sudo chmod a+x Android_Debloater.sh```
-5. Run the Command ```adb start-server```
+4. Make the file executable by running the following command: ```chmod a+x Android_Debloater.sh```
+5. Run the Command ```adb start-server``` or sometimes ```sudo adb start-server``` if the first command errors out.
 6. Plug the phone into the computer and authorize the phone to the computer. If it does not prompt you to authorize the device, make sure ADB is enable under Developer Options > USB Debugging. If Developer Mode is not enabled, go to About and click on Build Number until it says Developer Mode is enabled
 7. Run the file by running ```./Android_Debloater.sh```
+
+### macOS
+Coming Soon
 
 ## Want to me to update the bloatware list?
 I only know what bloatware to add if I am either told or it is on one of my personal android devices. If you would like to help the project and let me know what I need to add, make an issue with a list of apps that the debloat script did not get and I will add it when I can.
